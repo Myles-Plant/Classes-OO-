@@ -1,0 +1,16 @@
+Myles Plant, 12.01.2019
+Lua, Classes (OO)
+
+-- Library Declarations --
+local Class = { }
+local Mt = {
+  __index = function()
+    
+  end
+}
+
+do
+  function Class:new() -- Usage of Colon operator negates the use of the self metamethod
+    
+  end
+end
